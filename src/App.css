@@ -1,0 +1,502 @@
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f0f0f0; /* Gray background */
+}
+
+nav a {
+  margin-right: 20px; /* Space between links */
+  text-decoration: none;
+  color: #333; /* Dark text color */
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #007bff; /* Color change on hover */
+}
+
+/* Styles for main content area */
+.main-content {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.add-course-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.add-course-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-course-form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.add-course-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.add-course-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.add-course-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-course-form button:hover {
+  background-color: #0056b3;
+}
+
+.add-result-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.add-result-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-result-form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.add-result-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.add-result-form select,
+.add-result-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.add-result-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-result-form button:hover {
+  background-color: #0056b3;
+}
+
+.add-student-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.add-student-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-student-form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.add-student-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.add-student-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.add-student-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-student-form button:hover {
+  background-color: #0056b3;
+}
+
+.course-list-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.course-list-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.course-list-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.course-list-table th,
+.course-list-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.course-list-table th {
+  background-color: #f2f2f2;
+}
+
+.course-list-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.course-list-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.course-list-table button {
+  margin-right: 10px;
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.course-list-table button:hover {
+  background-color: #cc0000;
+}
+
+.add-course-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.add-course-link:hover {
+  background-color: #0056b3;
+}
+
+.edit-course-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.edit-course-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.edit-course-form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.edit-course-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.edit-course-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.edit-course-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.edit-course-form button:hover {
+  background-color: #0056b3;
+}
+
+.edit-result-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .edit-result-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .edit-result-form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .edit-result-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  
+  .edit-result-form select,
+  .edit-result-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
+  .edit-result-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .edit-result-form button:hover {
+    background-color: #0056b3;
+  }
+
+  
+  .edit-student-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .edit-student-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .edit-student-form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .edit-student-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  
+  .edit-student-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
+  .edit-student-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .edit-student-form button:hover {
+    background-color: #0056b3;
+  }
+
+  .result-list-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .result-list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .result-list-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .result-list-table th,
+  .result-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .result-list-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .result-list-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .result-list-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .result-list-table button {
+    margin-right: 10px;
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .result-list-table button:hover {
+    background-color: #cc0000;
+  }
+  
+  .add-result-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .add-result-link:hover {
+    background-color: #0056b3;
+  }
+
+  .student-list-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .student-list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .student-list-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .student-list-table th,
+  .student-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .student-list-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .student-list-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .student-list-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .student-list-table button {
+    margin-right: 10px;
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .student-list-table button:hover {
+    background-color: #cc0000;
+  }
+  
+  .add-student-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .add-student-link:hover {
+    background-color: #0056b3;
+  }
+  
